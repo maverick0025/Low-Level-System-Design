@@ -28,7 +28,8 @@ public class WaitressDiffMenuClasses {
 			System.out.println(menuItem.getDescription());
 		}
 	}
- 
+ 	//Below is not relevant to this package at the moment
+	/*
 	public void printVegetarianMenu() {
 		printVegetarianMenu(pancakeHouseMenu.createIterator());
 		printVegetarianMenu(dinerMenu.createIterator());
@@ -68,5 +69,5 @@ public class WaitressDiffMenuClasses {
 			}
 		}
 		return false;
-	}
+	}*/
 }
