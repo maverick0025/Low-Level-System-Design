@@ -1,4 +1,4 @@
-package org.example.Iterator_pattern;
+package org.example.Iterator_pattern.different_menu_classes;
 
 public class MenuItem {
 	String name;

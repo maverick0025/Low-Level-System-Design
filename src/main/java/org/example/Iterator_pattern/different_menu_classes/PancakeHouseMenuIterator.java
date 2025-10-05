@@ -1,6 +1,5 @@
-package org.example.Iterator_pattern;
+package org.example.Iterator_pattern.different_menu_classes;
 
-import java.awt.*;
 import java.util.ArrayList;
 
 public class PancakeHouseMenuIterator implements Iterator{

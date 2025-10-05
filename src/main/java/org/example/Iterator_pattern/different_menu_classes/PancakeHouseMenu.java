@@ -1,4 +1,4 @@
-package org.example.Iterator_pattern;
+package org.example.Iterator_pattern.different_menu_classes;
 
 import java.util.ArrayList;
 import java.util.List;

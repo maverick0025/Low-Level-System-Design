@@ -1,4 +1,4 @@
-package org.example.Iterator_pattern;
+package org.example.Iterator_pattern.different_menu_classes;
 
 public class DinerMenuIterator implements Iterator {
     int position = 0;
