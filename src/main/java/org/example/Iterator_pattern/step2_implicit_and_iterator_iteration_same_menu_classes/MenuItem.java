@@ -1,4 +1,4 @@
-package org.example.Iterator_pattern.different_menu_classes;
+package org.example.Iterator_pattern.step2_implicit_and_iterator_iteration_same_menu_classes;
 
 public class MenuItem {
 	String name;
@@ -6,10 +6,10 @@ public class MenuItem {
 	boolean vegetarian;
 	double price;
  
-	public MenuItem(String name, 
-	                String description, 
-	                boolean vegetarian, 
-	                double price) 
+	public MenuItem(String name,
+                    String description,
+                    boolean vegetarian,
+                    double price)
 	{
 		this.name = name;
 		this.description = description;
