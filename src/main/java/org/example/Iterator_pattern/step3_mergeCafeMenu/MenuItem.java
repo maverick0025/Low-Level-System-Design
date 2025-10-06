@@ -1,4 +1,4 @@
-package org.example.Iterator_pattern.step_1_different_menu_classes;
+package org.example.Iterator_pattern.step3_mergeCafeMenu;
 
 public class MenuItem {
 	String name;
@@ -6,10 +6,10 @@ public class MenuItem {
 	boolean vegetarian;
 	double price;
  
-	public MenuItem(String name, 
-	                String description, 
-	                boolean vegetarian, 
-	                double price) 
+	public MenuItem(String name,
+                    String description,
+                    boolean vegetarian,
+                    double price)
 	{
 		this.name = name;
 		this.description = description;
@@ -28,7 +28,7 @@ public class MenuItem {
 	public double getPrice() {
 		return price;
 	}
-
+  
 	public boolean isVegetarian() {
 		return vegetarian;
 	}
