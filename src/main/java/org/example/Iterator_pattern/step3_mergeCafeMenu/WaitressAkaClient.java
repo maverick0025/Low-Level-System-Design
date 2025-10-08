@@ -1,14 +1,13 @@
 package org.example.Iterator_pattern.step3_mergeCafeMenu;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 public class WaitressAkaClient {
-    Menu pancakeHouseMenu;
-    Menu dinerMenu;
-    Menu cafeMenu;
-    public WaitressAkaClient(Menu pancakeHouseMenu, Menu DinerMenu, Menu CafeMenu) {
+    MenuIteratorInterface pancakeHouseMenu;
+    MenuIteratorInterface dinerMenu;
+    MenuIteratorInterface cafeMenu;
+    public WaitressAkaClient(MenuIteratorInterface pancakeHouseMenu, MenuIteratorInterface DinerMenu, MenuIteratorInterface CafeMenu) {
         this.pancakeHouseMenu = pancakeHouseMenu;
         this.dinerMenu = DinerMenu;
         this.cafeMenu = CafeMenu;

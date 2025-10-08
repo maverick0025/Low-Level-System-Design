@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class WaitressCompactAkaClient {
-    ArrayList<Menu> menus;
+    ArrayList<MenuIteratorInterface> menus;
 
-    public WaitressCompactAkaClient(ArrayList<Menu> menus) {
+    public WaitressCompactAkaClient(ArrayList<MenuIteratorInterface> menus) {
         this.menus = menus;
     }
 
     public void printMenu_usingIterator(){
         Iterator<?> menuIterator= menus.iterator();
         while(menuIterator.hasNext()){
-            Menu menu = (Menu)menuIterator.next();
+            MenuIteratorInterface menu = (MenuIteratorInterface)menuIterator.next();
             printMenuItems(menu.createIterator());
         }
     }

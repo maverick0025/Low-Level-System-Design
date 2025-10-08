@@ -3,7 +3,7 @@ package org.example.Iterator_pattern.step3_mergeCafeMenu;
 
 import java.util.Iterator;
 
-public class DinerMenu implements Menu {
+public class DinerMenu implements MenuIteratorInterface {
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;
