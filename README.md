@@ -1,7 +1,16 @@
 # Low-Level-System-Design
 
-Most codes are from the book Head first design patterns
+Most codes are from the book Head first design patterns (Eric Freeman & Elisabeth Robson)
 But I rewrote them for practice
+
+## Object-Oriented Principles
+- Encapsulate what varies
+- Favor composition over inheritance
+- Program to interface, not implementations.
+
+## Strategy Pattern (Ducks)
+- Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Stragegy lets the algorithm vary independently of clients that use it.
+- Refer to page 22 of the book. The image over there paints the whole picture.
 
 ## Iterator and Composite Patterns
 - merging 3 restaurants. all use the same MenuItem Class. So that makes things a little easy. If not, need to modify the codebases to maintain decorum
