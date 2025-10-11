@@ -7,6 +7,7 @@ But I rewrote them for practice
 - Encapsulate what varies
 - Favor composition over inheritance
 - Program to interface, not implementations.
+- Strive for loosely coupled designs between objects that interact.
 
 ## Strategy Pattern (Ducks)
 - Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Stragegy lets the algorithm vary independently of clients that use it.
@@ -20,7 +21,7 @@ But I rewrote them for practice
 - Checkout the Weather station class diagram in page 57. I used this to write down the step2
   - WeatherData is subject
   - CurrentConditionsDisplay, StatisticsDisplay, etc... are observers
-- step2 is, one weather station and it has multiple displays.
+- step2 is, one weather station, and it has multiple displays.
 - java.util.Observable and java.util.Observer used in step2_javadefault
 
 ## Iterator and Composite Patterns (Restaurants and their menus merging)
