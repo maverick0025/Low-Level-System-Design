@@ -1,4 +1,4 @@
-package org.example.template_pattern;
+package org.example.templatePattern;
 
 import javax.swing.*;
 import java.awt.*;

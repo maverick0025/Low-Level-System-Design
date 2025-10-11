@@ -1,4 +1,4 @@
-package org.example.template_pattern;
+package org.example.templatePattern;
 
 import java.util.AbstractList;
 

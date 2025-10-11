@@ -1,4 +1,4 @@
-package org.example.template_pattern.sorting;
+package org.example.templatePattern.sorting;
 
 import java.util.Arrays;
 

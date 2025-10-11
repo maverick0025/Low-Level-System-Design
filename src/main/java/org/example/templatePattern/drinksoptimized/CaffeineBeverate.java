@@ -1,4 +1,4 @@
-package org.example.template_pattern.drinksoptimized;
+package org.example.templatePattern.drinksoptimized;
 
 public abstract class CaffeineBeverate {
 

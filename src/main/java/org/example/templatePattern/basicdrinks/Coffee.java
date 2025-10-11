@@ -1,4 +1,4 @@
-package org.example.template_pattern.basicdrinks;
+package org.example.templatePattern.basicdrinks;
 
 public class Coffee implements Drink{
     @Override

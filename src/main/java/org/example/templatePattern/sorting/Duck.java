@@ -1,4 +1,4 @@
-package org.example.template_pattern.sorting;
+package org.example.templatePattern.sorting;
 
 public class Duck implements Comparable<Duck>{
 
