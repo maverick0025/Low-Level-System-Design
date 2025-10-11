@@ -14,3 +14,5 @@ But I rewrote them for practice
 
 
 ## State Pattern
+- step 1 is just a very bad normal implementation
+- step 2 is we modify our step 1 implementation adhering to state pattern

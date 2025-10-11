@@ -20,7 +20,7 @@ public class GumballMachineTest {
         gumballMachine.refill(5);
         gumballMachine.insertQuarter();
         gumballMachine.turnCrank();
-        
+
         System.out.println(gumballMachine);
 
     }
