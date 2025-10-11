@@ -15,7 +15,13 @@ But I rewrote them for practice
 ## Observer Pattern (Weather Station and displays)
 - Defines a one-to-many dependency between objects (subject->observers) so that when one object changes state, all of its dependents are notified and updated automatically.
 - Class diagram in page 52. 
-- step1 is the basic simple implementation of observer pattern
+- step1 is the basic simple implementation of observer pattern.
+- step1_javadefault is, we don't define any observer or observable(subject) interfaces. We make use of java.util.observable, java.util.observer prebuilt packages.
+- Checkout the Weather station class diagram in page 57. I used this to write down the step2
+  - WeatherData is subject
+  - CurrentConditionsDisplay, StatisticsDisplay, etc... are observers
+- step2 is, one weather station and it has multiple displays.
+- java.util.Observable and java.util.Observer used in step2_javadefault
 
 ## Iterator and Composite Patterns (Restaurants and their menus merging)
 - merging 3 restaurants. all use the same MenuItem Class. So that makes things a little easy. If not, need to modify the codebases to maintain decorum
