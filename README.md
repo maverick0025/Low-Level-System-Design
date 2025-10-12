@@ -31,6 +31,7 @@ But I rewrote them for practice
 - Check pattern's class diagram on page 91.
 - Check page 92 for the actual example's class diagram.
 - step1_starbuzz is a real world example of this pattern.
+- step2_addSizes is incorporating glass sizes also.
 
 ## Iterator and Composite Patterns (Restaurants and their menus merging)
 - merging 3 restaurants. all use the same MenuItem Class. So that makes things a little easy. If not, need to modify the codebases to maintain decorum
