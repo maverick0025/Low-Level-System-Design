@@ -8,6 +8,7 @@ But I rewrote them for practice
 - Favor composition over inheritance
 - Program to interface, not implementations.
 - Strive for loosely coupled designs between objects that interact.
+- Classes should be open for extension, but closed for modification.
 
 ## Strategy Pattern (Ducks)
 - Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Stragegy lets the algorithm vary independently of clients that use it.
@@ -23,6 +24,13 @@ But I rewrote them for practice
   - CurrentConditionsDisplay, StatisticsDisplay, etc... are observers
 - step2 is, one weather station, and it has multiple displays.
 - java.util.Observable and java.util.Observer used in step2_javadefault
+
+## Decorator Pattern (StarBuzz coffee and condiments)
+- Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+- Decorator adds its own behavior before and/or after delegating to the object it decorates to do the rest of the job.
+- Check pattern's class diagram on page 91.
+- Check page 92 for the actual example's class diagram.
+- step1_starbuzz is a real world example of this pattern.
 
 ## Iterator and Composite Patterns (Restaurants and their menus merging)
 - merging 3 restaurants. all use the same MenuItem Class. So that makes things a little easy. If not, need to modify the codebases to maintain decorum
