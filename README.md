@@ -45,7 +45,7 @@ But I rewrote them for practice
 ## State Pattern (Gumball Machine)
 - step 1 is just a very bad normal implementation
 - step 2 is we modify our step 1 implementation adhering to state pattern
-- step 2 used interface and so we have to override every method. Now in step 3, I used abstract class to which i gave some default implementations for each actions for State. I will only override those necessary methods in the state rather than again implementing all the methods.
+- step 2 used interface, and so we have to override every method. Now in step 3, I used abstract class to which i gave some default implementations for each actions for State. I will only override those necessary methods in the state rather than again implementing all the methods.
   - this reduces the code duplication especially if the application is big enough and there are alot of states.
 
 ## Proxy Pattern (Gumball Machine but accessing from remote)
@@ -53,4 +53,7 @@ But I rewrote them for practice
   - Execute in terminal because it needs two arguments. Location, initial count of gumballs
     - `ashok@Mac Low-Level-System-Design % cd src/main/java/org/example/proxyPattern/step1_gumballmonitor`
     - `ashok@Mac step1_gumballmonitor % java GumballMachineTestDrive.java Newyork 12`
-  
+- Step2 is implementing the rmi registry to call reports on gumball machines present at different location in the world from a single remote computer.
+  - remote interface : GumballMachineRemote
+  - remote service : GumballMachine (service), GumballMachineTestDrive (implementation)
+  - client : GumballRemote (class), GumballMonitorTestDrive (implementation) 
