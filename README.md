@@ -49,8 +49,8 @@ But I rewrote them for practice
   - this reduces the code duplication especially if the application is big enough and there are alot of states.
 
 ## Proxy Pattern (Gumball Machine but accessing from remote)
-- step 1 is just a very bad implementation of calling the gumball machine that is present in the same jvm (terminal). and so they are accessing the same heap objects.
+- Step 1 is just a very bad implementation of calling the gumball machine that is present in the same jvm (terminal). and so they are accessing the same heap objects.
   - Execute in terminal because it needs two arguments. Location, initial count of gumballs
-    - `ashok@Mac Low-Level-System-Design % cd src/main/java/org/example/proxyPattern.step1_gumballmonitor
-        ashok@Mac step1_gumballmonitor % java GumballMachineTestDrive.java Newyork 12`
+    - `ashok@Mac Low-Level-System-Design % cd src/main/java/org/example/proxyPattern/step1_gumballmonitor`
+    - `ashok@Mac step1_gumballmonitor % java GumballMachineTestDrive.java Newyork 12`
   
