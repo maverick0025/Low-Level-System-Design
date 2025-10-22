@@ -64,4 +64,4 @@ But I rewrote them for practice
     4. In terminal 3, get to `/Users/ashok/Documents/System Design/Low-Level-System-Design/` and we can run the monitor class using the following command `java -cp target/classes org.example.proxyPattern.step2_gumballWithProxy.GumballMonitorTestDrive`
 - Step3 is virtual proxy
 - Step 4 is using Protection proxy. I don't create this proxy. I wil use Java's default proxy to design my own protection proxy.
-  - 
+  - It's like an agent handling business on behalf of a client when other's approach the client.
