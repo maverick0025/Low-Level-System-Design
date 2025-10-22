@@ -62,3 +62,4 @@ But I rewrote them for practice
     2. In terminal 1, navigate to `/Users/ashok/Documents/System Design/Low-Level-System-Design/target/classes` and start rmiregistry using the command `rmiregistry &`
     3. In terminal 2, get to `/Users/ashok/Documents/System Design/Low-Level-System-Design/` (from where you will have access to target directory) and run the following command `java -cp target/classes org.example.proxyPattern.step2_gumballWithProxy.GumballMachineTestDrive localhost 25`. Here, localhost is the location and 25 is the gumball count. 
     4. In terminal 3, get to `/Users/ashok/Documents/System Design/Low-Level-System-Design/` and we can run the monitor class using the following command `java -cp target/classes org.example.proxyPattern.step2_gumballWithProxy.GumballMonitorTestDrive`
+- Step3 is virtual proxy
