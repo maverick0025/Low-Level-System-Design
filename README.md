@@ -66,3 +66,10 @@ But I rewrote them for practice
 - Step3 is virtual proxy
 - Step 4 is using Protection proxy. I don't create this proxy. I wil use Java's default proxy to design my own protection proxy.
   - It's like an agent handling business on behalf of a client when other's approach the client.
+
+## Compound Pattern
+- We start with a basic implementation and when a new use case comes, we add a new design pattern accordingly.
+- Step 1: Simple basic Ducks simulator using an interface to quack
+- Step 2: Adapter Pattern
+  - We have a goose that honks instead of quacking. So we adapt goose's interface to implement Duck's Quackable
+  
