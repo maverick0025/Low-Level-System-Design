@@ -73,3 +73,5 @@ But I rewrote them for practice
 - Step 2: Adapter Pattern
   - We have a goose that honks instead of quacking. So we adapt goose's interface to implement Duck's Quackable
   - A new GooseAdapter (adapt goose to duck) for goose so than I shall just use quack() method from duck's Quackable interface.
+- Step 3 : Decorator Pattern
+  - In this we will calculate all the quacks recorded. Only quacks. Not honks

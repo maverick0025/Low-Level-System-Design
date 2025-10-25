@@ -1,7 +1,7 @@
-package org.example.compoundPattern.step2_adapter.adapter;
+package org.example.compoundPattern.step3_decorator.adapter;
 
-import org.example.compoundPattern.step2_adapter.interfaces.Honkable;
-import org.example.compoundPattern.step2_adapter.interfaces.Quackable;
+import org.example.compoundPattern.step3_decorator.interfaces.Honkable;
+import org.example.compoundPattern.step3_decorator.interfaces.Quackable;
 
 public class GooseAdapter implements Quackable {
     Honkable honkable;

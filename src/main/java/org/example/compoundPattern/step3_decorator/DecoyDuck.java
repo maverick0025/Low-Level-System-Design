@@ -1,6 +1,6 @@
-package org.example.compoundPattern.step2_adapter;
+package org.example.compoundPattern.step3_decorator;
 
-import org.example.compoundPattern.step2_adapter.interfaces.Quackable;
+import org.example.compoundPattern.step3_decorator.interfaces.Quackable;
 
 public class DecoyDuck implements Quackable {
     @Override
