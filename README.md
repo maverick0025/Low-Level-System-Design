@@ -78,5 +78,8 @@ But I rewrote them for practice
 - Step 4: Factory Pattern
   - Duck factory. At the moment there is only one type of goose so just added this into the duck factory also. In future, if there are more than one type of goose, need to add a new factory.
 - Step 5: Composite pattern
-  - We have alot of ducks. now let's create a flock of them and use them as a flock iteratively.
-  - 
+  - We have a lot of ducks. now let's create a flock of them and use them as a flock iteratively.
+  - flock of few ducks or combination of them.
+- Step 6: Observer Pattern
+  - No flock in this case. we shall register observers for individual ducks. step 7 we shall register them for a flock.
+  - Only one observer (observer_quackologist) is registered at the moment.
