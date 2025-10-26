@@ -1,7 +1,6 @@
 package org.example.compoundPattern.step4_factory;
 
-import org.example.compoundPattern.step4_factory.adapter.GooseAdapter;
-import org.example.compoundPattern.step4_factory.factory.DuckFactory;
+import org.example.compoundPattern.step4_factory.factory.CountingDuckFactory;
 import org.example.compoundPattern.step4_factory.interfaces.Quackable;
 
 public class TestDuckSimulator {
@@ -11,7 +10,7 @@ public class TestDuckSimulator {
 
     public static void main(String[] args) {
         TestDuckSimulator testDuckSimulator = new TestDuckSimulator();
-        DuckFactory duckFactory = new DuckFactory();
+        CountingDuckFactory duckFactory = new CountingDuckFactory();
         Quackable redheadDuck = duckFactory.createRedheadDuck();
         Quackable rubberDuck = duckFactory.createRubberDuck();
         Quackable mallardDuck = duckFactory.createMallardDuck();

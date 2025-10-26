@@ -1,7 +1,7 @@
 package org.example.compoundPattern.step7_observer_flock;
 
 import org.example.compoundPattern.step7_observer_flock.factory.AbstractDuckFactory;
-import org.example.compoundPattern.step7_observer_flock.factory.DuckFactory;
+import org.example.compoundPattern.step7_observer_flock.factory.CountingDuckFactory;
 import org.example.compoundPattern.step7_observer_flock.interfaces.Quackable;
 
 public class TestDuckSimulator {
@@ -11,7 +11,7 @@ public class TestDuckSimulator {
 
     public static void main(String[] args) {
         TestDuckSimulator testDuckSimulator = new TestDuckSimulator();
-        AbstractDuckFactory duckFactory = new DuckFactory();
+        AbstractDuckFactory duckFactory = new CountingDuckFactory();
 
         testDuckSimulator.simulate(duckFactory);
         System.out.println("\n -- Duck Simulator --");

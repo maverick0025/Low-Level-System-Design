@@ -1,9 +1,7 @@
 package org.example.compoundPattern.step5_composite;
 
 import org.example.compoundPattern.step5_composite.factory.AbstractDuckFactory;
-import org.example.compoundPattern.step5_composite.factory.DuckFactory;
-import org.example.compoundPattern.step5_composite.interfaces.Quackable;
-import org.example.templatePattern.sorting.Duck;
+import org.example.compoundPattern.step5_composite.factory.CountingDuckFactory;
 
 public class TestDuckSimulator {
 
@@ -12,7 +10,7 @@ public class TestDuckSimulator {
 
     public static void main(String[] args) {
         TestDuckSimulator testDuckSimulator = new TestDuckSimulator();
-        AbstractDuckFactory duckFactory = new DuckFactory();
+        AbstractDuckFactory duckFactory = new CountingDuckFactory();
 
         testDuckSimulator.simulate(duckFactory);
         System.out.println("\n -- Duck Simulator --");

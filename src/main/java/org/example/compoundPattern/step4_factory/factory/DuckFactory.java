@@ -1,37 +1,28 @@
 package org.example.compoundPattern.step4_factory.factory;
 
-import org.example.compoundPattern.step4_factory.*;
-import org.example.compoundPattern.step4_factory.adapter.GooseAdapter;
 import org.example.compoundPattern.step4_factory.animals.*;
 import org.example.compoundPattern.step4_factory.interfaces.Quackable;
 
 public class DuckFactory extends AbstractDuckFactory {
-    @Override
-    public Quackable createDecoyDuck() {
-        return new QuackCounter(new DecoyDuck());
-    }
+  
+	public Quackable createMallardDuck() {
+		return new MallardDuck();
+	}
+  
+	public Quackable createRedheadDuck() {
+		return new RedheadDuck();
+	}
 
-    @Override
-    public Quackable createDuckCall() {
-        return new QuackCounter(new DuckCall());
-    }
+	@Override
+	public Quackable createDecoyDuck() {
+		return null;
+	}
 
-    @Override
-    public Quackable createMallardDuck() {
-        return new QuackCounter(new MallardDuck());
-    }
-
-    @Override
-    public Quackable createRedheadDuck() {
-        return new QuackCounter(new RedheadDuck());
-    }
-
-    @Override
-    public Quackable createRubberDuck() {
-        return new QuackCounter(new RubberDuck());
-    }
-
-    public Quackable createGoose(){
-        return new GooseAdapter(new Goose());
-    }
+	public Quackable createDuckCall() {
+		return new DuckCall();
+	}
+   
+	public Quackable createRubberDuck() {
+		return new RubberDuck();
+	}
 }
