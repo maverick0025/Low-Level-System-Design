@@ -31,6 +31,8 @@ public class TestDuckSimulator {
         mallardDuck.registerObserver(observer_quackologist);
         rubberDuck.registerObserver(observer_quackologist);
 
+        System.out.println("Observer added for mallard duckk and rubber duck!");
+
         simulate(redheadDuck);
         simulate(rubberDuck);
         simulate(mallardDuck);
