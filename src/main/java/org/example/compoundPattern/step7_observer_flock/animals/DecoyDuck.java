@@ -5,7 +5,6 @@ import org.example.compoundPattern.step7_observer_flock.interfaces.Observer;
 import org.example.compoundPattern.step7_observer_flock.interfaces.Quackable;
 
 public class DecoyDuck implements Quackable {
-
     Observable observable;
 
     public DecoyDuck() {

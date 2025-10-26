@@ -24,6 +24,7 @@ public class TestDuckSimulator {
 
         Flock flockOfDucks = new Flock();
         Quackable rubberDuck = duckFactory.createRubberDuck();
+
         flockOfDucks.addQuacker(duckFactory.createRedheadDuck());
         flockOfDucks.addQuacker(duckFactory.createDecoyDuck());
         flockOfDucks.addQuacker(duckFactory.createDuckCall());

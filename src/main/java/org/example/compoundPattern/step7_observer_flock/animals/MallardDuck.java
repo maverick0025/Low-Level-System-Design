@@ -14,13 +14,11 @@ public class MallardDuck implements Quackable {
 
     @Override
     public void registerObserver(Observer observer) {
-        System.out.println("register obs is called in "+ this);
         observable.registerObserver(observer);
     }
 
     @Override
     public void notifyObservers() {
-        System.out.println("notify obs is called in "+ this);
         observable.notifyObservers();
     }
 
@@ -32,5 +30,6 @@ public class MallardDuck implements Quackable {
     @Override
     public void quack() {
         System.out.println("Quack");
+        notifyObservers();
     }
 }
