@@ -73,5 +73,10 @@ But I rewrote them for practice
 - Step 2: Adapter Pattern
   - We have a goose that honks instead of quacking. So we adapt goose's interface to implement Duck's Quackable
   - A new GooseAdapter (adapt goose to duck) for goose so than I shall just use quack() method from duck's Quackable interface.
-- Step 3 : Decorator Pattern
+- Step 3: Decorator Pattern
   - In this we will calculate all the quacks recorded. Only quacks. Not honks
+- Step 4: Factory Pattern
+  - Duck factory. At the moment there is only one type of goose so just added this into the duck factory also. In future, if there are more than one type of goose, need to add a new factory.
+- Step 5: Composite pattern
+  - We have alot of ducks. now let's create a flock of them and use them as a flock iteratively.
+  - 
