@@ -33,6 +33,15 @@ But I rewrote them for practice
 - step1_starbuzz is a real world example of this pattern.
 - step2_addSizes is incorporating glass sizes also.
 
+## Singleton Pattern (Chocolate Boiler)
+- Ensure a class only has one instance and provide a global point of access to it.
+- step1 is the basic implementation of a singleton. Not thread safe
+- step2 is the thread safe implementation
+- step3 is synchronizing only if instance is null unlike synchronizing everytime getInstance is triggered.
+- Step4 is letting the JVM create this singleton class eagerly when the class is loaded itself. This is guaranteed to be threadsafe also.
+- Step5 is a real life example
+- Step6 is the superior to all above implementations of singletons. Synchronization, Class loading issues, reflection and serialization/deserialization issues all can be solved
+
 ## Iterator and Composite Patterns (Restaurants and their menus merging)
 - merging 3 restaurants. all use the same MenuItem Class. So that makes things a little easy. If not, need to modify the codebases to maintain decorum
 - step 1 is a using custom iterator for both array list and arrays in pancakehouse and diner menu respectively
