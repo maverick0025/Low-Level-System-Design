@@ -92,3 +92,5 @@ But I rewrote them for practice
 - Step 6: Observer Pattern
   - No flock in this case. we shall register observers for individual ducks. step 7 we shall register them for a flock.
   - Only one observer (observer_quackologist) is registered at the moment.
+
+## Adapter Pattern
