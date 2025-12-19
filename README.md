@@ -94,3 +94,4 @@ But I rewrote them for practice
   - Only one observer (observer_quackologist) is registered at the moment.
 
 ## Adapter Pattern
+ 
