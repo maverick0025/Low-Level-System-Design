@@ -94,4 +94,7 @@ But I rewrote them for practice
   - Only one observer (observer_quackologist) is registered at the moment.
 
 ## Adapter Pattern
- 
+ - Converts an interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+ - step1 is all about Object adapter. pic on page 246. We use composition to pass requests to the Adaptee.
+ - Other type is Class adapter and it includes multiple inheritance technique and is not applicable in Java.
+ - step2 is, old collections like Hashtables, vector uses enumeration to loop through an object but newly, it's all about iterators. 
