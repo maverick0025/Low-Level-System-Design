@@ -9,6 +9,7 @@ But I rewrote them for practice
 - Program to interface, not implementations.
 - Strive for loosely coupled designs between objects that interact.
 - Classes should be open for extension, but closed for modification.
+- Principle of least knowledge: talk only to your immediate friends. 
 
 ## Strategy Pattern (Ducks)
 - Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Stragegy lets the algorithm vary independently of clients that use it.
@@ -100,3 +101,5 @@ But I rewrote them for practice
  - step2 is, old collections like Hashtables, vector uses enumeration to loop through an object but newly, it's all about iterators.
 
 ## Facade Pattern
+- Provides a unified interface to a set of interfaces in a subsystem.
+- Facade defines a higher level interface that makes the subsystem easier to use while the client can still use the subsystems individually. So, it's not an abstraction and only a way to simplify set of tasks with a few simpler methods.
