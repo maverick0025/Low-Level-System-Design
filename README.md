@@ -10,7 +10,7 @@ But I rewrote them for practice
 - Strive for loosely coupled designs between objects that interact.
 - Classes should be open for extension, but closed for modification.
 - Principle of least knowledge: talk only to your immediate friends. 
-- 
+- Dependency Inversion: Depend on abstractions. Don't depend upon concrete classes. High level components (Pizza store) shouldn't depend on low level components (different types of pizzas) but can depend on their interfaces.
 
 ## Strategy Pattern (Ducks)
 - Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Stragegy lets the algorithm vary independently of clients that use it.
@@ -107,4 +107,14 @@ But I rewrote them for practice
 
 ## Factory Pattern
 - step 1: a common misconception of factory pattern. looks like factory pattern but it is not. It's a programmign Idiom
-- 
+- step 2: A framework that ties the store and the pizza creation together, yet still allow things to remain flexible (different baking procedure, cutting procedure, etc...)
+  - new york store, chicago store both does pizzas as they please. Both have different kind of sauces, toppings, crust for each pizza type like cheese, clam, veggie, etc...
+  - chicago also cuts the pizza in squares instead of default diagonal cut.
+  - **Factory method**: handles object creation and encapsulates it in a subclass. 
+    -  Defines an interface(abstract method or interface method) for creating an object but lets the subclasses decide which class to instantiate. 
+    - Factory method lets a class defer instantiation to subclasses.
+    - This decouples the client code in the superclass from the object creation code in the subclass.
+    - In Pizza store, createPizza() method is a factory method.
+  - PizzaStoreNY and PizzaStoreChicago produce products, and so they are called **concrete creators classes**.
+  - Pizza classes (NYStyleCheese, ChicagoStyleClam,...) are called **Product classes**.
+    
