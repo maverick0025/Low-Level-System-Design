@@ -78,23 +78,6 @@ But I rewrote them for practice
 - Step 4 is using Protection proxy. I don't create this proxy. I wil use Java's default proxy to design my own protection proxy.
   - It's like an agent handling business on behalf of a client when other's approach the client.
 
-## Compound Pattern
-- We start with a basic implementation and when a new use case comes, we add a new design pattern accordingly.
-- Step 1: Simple basic Ducks simulator using an interface to quack
-- Step 2: Adapter Pattern
-  - We have a goose that honks instead of quacking. So we adapt goose's interface to implement Duck's Quackable
-  - A new GooseAdapter (adapt goose to duck) for goose so than I shall just use quack() method from duck's Quackable interface.
-- Step 3: Decorator Pattern
-  - In this we will calculate all the quacks recorded. Only quacks. Not honks
-- Step 4: Factory Pattern
-  - Duck factory. At the moment there is only one type of goose so just added this into the duck factory also. In future, if there are more than one type of goose, need to add a new factory.
-- Step 5: Composite pattern
-  - We have a lot of ducks. now let's create a flock of them and use them as a flock iteratively.
-  - flock of few ducks or combination of them.
-- Step 6: Observer Pattern
-  - No flock in this case. we shall register observers for individual ducks. step 7 we shall register them for a flock.
-  - Only one observer (observer_quackologist) is registered at the moment.
-
 ## Adapter Pattern
  - Converts an interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
  - step1 is all about Object adapter. pic on page 246. We use composition to pass requests to the Adaptee.
@@ -118,3 +101,20 @@ But I rewrote them for practice
   - PizzaStoreNY and PizzaStoreChicago produce products, and so they are called **concrete creators classes**.
   - Pizza classes (NYStyleCheese, ChicagoStyleClam,...) are called **Product classes**.
 - Step 3: provide ingredients via region specific factories
+
+## Compound Pattern
+- We start with a basic implementation and when a new use case comes, we add a new design pattern accordingly.
+- Step 1: Simple basic Ducks simulator using an interface to quack
+- Step 2: Adapter Pattern
+  - We have a goose that honks instead of quacking. So we adapt goose's interface to implement Duck's Quackable
+  - A new GooseAdapter (adapt goose to duck) for goose so than I shall just use quack() method from duck's Quackable interface.
+- Step 3: Decorator Pattern
+  - In this we will calculate all the quacks recorded. Only quacks. Not honks
+- Step 4: Factory Pattern
+  - Duck factory. At the moment there is only one type of goose so just added this into the duck factory also. In future, if there are more than one type of goose, need to add a new factory.
+- Step 5: Composite pattern
+  - We have a lot of ducks. now let's create a flock of them and use them as a flock iteratively.
+  - flock of few ducks or combination of them.
+- Step 6: Observer Pattern
+  - No flock in this case. we shall register observers for individual ducks. step 7 we shall register them for a flock.
+  - Only one observer (observer_quackologist) is registered at the moment.
