@@ -44,6 +44,20 @@ But I rewrote them for practice
 - Step5 is a real life example
 - Step6 is the superior to all above implementations of singletons. Synchronization, Class loading issues, reflection and serialization/deserialization issues all can be solved
 
+## Factory Pattern
+- step 1: a common misconception of factory pattern. looks like factory pattern but it is not. It's a programmign Idiom
+- step 2: A framework that ties the store and the pizza creation together, yet still allow things to remain flexible (different baking procedure, cutting procedure, etc...)
+  - new york store, chicago store both does pizzas as they please. Both have different kind of sauces, toppings, crust for each pizza type like cheese, clam, veggie, etc...
+  - chicago also cuts the pizza in squares instead of default diagonal cut.
+  - **Factory method**: handles object creation and encapsulates it in a subclass.
+    -  Defines an interface(abstract method or interface method) for creating an object but lets the subclasses decide which class to instantiate.
+    - Factory method lets a class defer instantiation to subclasses.
+    - This decouples the client code in the superclass from the object creation code in the subclass.
+    - In Pizza store, createPizza() method is a factory method.
+  - PizzaStoreNY and PizzaStoreChicago produce products, and so they are called **concrete creators classes**.
+  - Pizza classes (NYStyleCheese, ChicagoStyleClam,...) are called **Product classes**.
+- Step 3: provide ingredients via region specific factories
+
 ## Iterator and Composite Patterns (Restaurants and their menus merging)
 - merging 3 restaurants. all use the same MenuItem Class. So that makes things a little easy. If not, need to modify the codebases to maintain decorum
 - step 1 is a using custom iterator for both array list and arrays in pancakehouse and diner menu respectively
@@ -87,20 +101,6 @@ But I rewrote them for practice
 ## Facade Pattern
 - Provides a unified interface to a set of interfaces in a subsystem.
 - Facade defines a higher level interface that makes the subsystem easier to use while the client can still use the subsystems individually. So, it's not an abstraction and only a way to simplify set of tasks with a few simpler methods.
-
-## Factory Pattern
-- step 1: a common misconception of factory pattern. looks like factory pattern but it is not. It's a programmign Idiom
-- step 2: A framework that ties the store and the pizza creation together, yet still allow things to remain flexible (different baking procedure, cutting procedure, etc...)
-  - new york store, chicago store both does pizzas as they please. Both have different kind of sauces, toppings, crust for each pizza type like cheese, clam, veggie, etc...
-  - chicago also cuts the pizza in squares instead of default diagonal cut.
-  - **Factory method**: handles object creation and encapsulates it in a subclass. 
-    -  Defines an interface(abstract method or interface method) for creating an object but lets the subclasses decide which class to instantiate. 
-    - Factory method lets a class defer instantiation to subclasses.
-    - This decouples the client code in the superclass from the object creation code in the subclass.
-    - In Pizza store, createPizza() method is a factory method.
-  - PizzaStoreNY and PizzaStoreChicago produce products, and so they are called **concrete creators classes**.
-  - Pizza classes (NYStyleCheese, ChicagoStyleClam,...) are called **Product classes**.
-- Step 3: provide ingredients via region specific factories
 
 ## Compound Pattern
 - We start with a basic implementation and when a new use case comes, we add a new design pattern accordingly.

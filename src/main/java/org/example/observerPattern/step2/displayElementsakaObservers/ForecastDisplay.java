@@ -16,6 +16,7 @@ public class ForecastDisplay implements Observer, DisplayElement {
 
 	public void update(float temp, float humidity, float pressure) {
         lastPressure = currentPressure;
+		//can use getter method here so we can make this update() parameter less
 		currentPressure = pressure;
 
 		display();
