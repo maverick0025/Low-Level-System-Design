@@ -3,7 +3,7 @@ package org.example.observerPattern.step1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SubjectMain implements Subject{
+public class ConcreteSubjectMain implements Subject{
 
     List<Observer> observers;
     int value = 0;
@@ -13,7 +13,7 @@ public class SubjectMain implements Subject{
         notifyObservers();
     }
 
-    public SubjectMain() {
+    public ConcreteSubjectMain() {
         observers = new ArrayList<Observer>();
     }
 

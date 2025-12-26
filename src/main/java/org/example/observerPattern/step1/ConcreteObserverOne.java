@@ -1,11 +1,11 @@
 package org.example.observerPattern.step1;
 
-public class ObserverOne implements Observer{
+public class ConcreteObserverOne implements Observer{
 
     private int value;
-    private SubjectMain subjectMain;
+    private ConcreteSubjectMain subjectMain;
 
-    public ObserverOne(SubjectMain subjectMain) {
+    public ConcreteObserverOne(ConcreteSubjectMain subjectMain) {
         this.subjectMain = subjectMain;
         subjectMain.registerObserver(this);
     }
