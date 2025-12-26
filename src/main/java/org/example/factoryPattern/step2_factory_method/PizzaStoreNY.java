@@ -5,6 +5,8 @@ import org.example.factoryPattern.step2_factory_method.pizzas.NewYorkPizzas.NYSt
 import org.example.factoryPattern.step2_factory_method.pizzas.NewYorkPizzas.NYStylePepperoniPizza;
 import org.example.factoryPattern.step2_factory_method.pizzas.NewYorkPizzas.NYStyleVeggiePizza;
 
+import java.util.HashMap;
+
 public class PizzaStoreNY extends PizzaStore{
     @Override
     public Pizza createPizza(String type) {
@@ -23,6 +25,8 @@ public class PizzaStoreNY extends PizzaStore{
                 pizza = new NYStyleVeggiePizza();
                 break;
         }
+
+        HashMap<Integer, Integer> map = new HashMap<>();
         return pizza;
     }
 }

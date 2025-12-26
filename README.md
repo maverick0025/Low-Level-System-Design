@@ -117,4 +117,4 @@ But I rewrote them for practice
     - In Pizza store, createPizza() method is a factory method.
   - PizzaStoreNY and PizzaStoreChicago produce products, and so they are called **concrete creators classes**.
   - Pizza classes (NYStyleCheese, ChicagoStyleClam,...) are called **Product classes**.
-    
+- Step 3: provide ingredients via region specific factories
