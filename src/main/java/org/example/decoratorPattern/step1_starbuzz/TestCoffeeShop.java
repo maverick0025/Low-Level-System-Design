@@ -19,6 +19,8 @@ public class TestCoffeeShop {
         beverage2 = new Mocha(beverage2);
         beverage2 = new Mocha(beverage2);
         beverage2 = new Whip(beverage2);
+        //here the Beverage class is being extended by CondimentDecorator which is then an extension to Whip class
+        // so, return type can be Beverage or Whip or CondimentDecorator
         System.out.println(beverage2.getDescription() + " $"+ df.format(beverage2.cost()));
 
         Beverage beverage3 = new HouseBlend();
