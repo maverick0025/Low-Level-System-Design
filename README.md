@@ -47,8 +47,8 @@ But I rewrote them for practice
 ## Factory Pattern
 - step 1: a common misconception of factory pattern. looks like factory pattern but it is not. It's a programmign Idiom
 - step 2: A framework that ties the store and the pizza creation together, yet still allow things to remain flexible (different baking procedure, cutting procedure, etc...)
-  - new york store, chicago store both does pizzas as they please. Both have different kind of sauces, toppings, crust for each pizza type like cheese, clam, veggie, etc...
-  - chicago also cuts the pizza in squares instead of default diagonal cut.
+  - New York store, chicago store both does pizzas as they please. Both have different kind of sauces, toppings, crust for each pizza type like cheese, clam, veggie, etc...
+  - Chicago also cuts the pizza in squares instead of default diagonal cut.
   - **Factory method**: handles object creation and encapsulates it in a subclass.
     -  Defines an interface(abstract method or interface method) for creating an object but lets the subclasses decide which class to instantiate.
     - Factory method lets a class defer instantiation to subclasses.
@@ -120,3 +120,5 @@ But I rewrote them for practice
   - Only one observer (observer_quackologist) is registered at the moment.
 
 ## Command Pattern
+- Step 1 : basic remote controll with 5 slots. used different appliances and rooms in the home and control them with a remote control
+- 
