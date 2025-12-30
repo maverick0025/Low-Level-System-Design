@@ -102,6 +102,11 @@ But I rewrote them for practice
 - Provides a unified interface to a set of interfaces in a subsystem.
 - Facade defines a higher level interface that makes the subsystem easier to use while the client can still use the subsystems individually. So, it's not an abstraction and only a way to simplify set of tasks with a few simpler methods.
 
+## Command Pattern
+- Command pattern encapsulates a request as an object thereby letting you parameterize clients with different requests, queue or log requests and support undoable operations.
+- Step 1 : basic remote controll with 5 slots. used different appliances and rooms in the home and control them with a single remote.
+- Step 2 : undo functionality (very nicely done by storing previous state)
+
 ## Compound Pattern
 - We start with a basic implementation and when a new use case comes, we add a new design pattern accordingly.
 - Step 1: Simple basic Ducks simulator using an interface to quack
@@ -118,7 +123,3 @@ But I rewrote them for practice
 - Step 6: Observer Pattern
   - No flock in this case. we shall register observers for individual ducks. step 7 we shall register them for a flock.
   - Only one observer (observer_quackologist) is registered at the moment.
-
-## Command Pattern
-- Step 1 : basic remote controll with 5 slots. used different appliances and rooms in the home and control them with
-- Step 2 : undo functionality
