@@ -106,6 +106,7 @@ But I rewrote them for practice
 - Command pattern encapsulates a request as an object thereby letting you parameterize clients with different requests, queue or log requests and support undoable operations.
 - Step 1 : basic remote controll with 5 slots. used different appliances and rooms in the home and control them with a single remote.
 - Step 2 : undo functionality (very nicely done by storing previous state)
+  - There is a facade pattern embedded in this also. we can call multiple commands with a single execute() function. check Stereo commands.
 
 ## Compound Pattern
 - We start with a basic implementation and when a new use case comes, we add a new design pattern accordingly.
