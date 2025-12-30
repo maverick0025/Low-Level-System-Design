@@ -1,6 +1,6 @@
-package org.example.commandPattern.step1_basicRemoteController.roomsAndAppliances;
+package org.example.commandPattern.step2_undo_button.roomsAndAppliances;
 
-public class KitchenLight extends Light{
+public class KitchenLight extends Light {
 
     public KitchenLight(String description) {
         super(description);

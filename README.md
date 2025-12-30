@@ -120,5 +120,5 @@ But I rewrote them for practice
   - Only one observer (observer_quackologist) is registered at the moment.
 
 ## Command Pattern
-- Step 1 : basic remote controll with 5 slots. used different appliances and rooms in the home and control them with a remote control
-- 
+- Step 1 : basic remote controll with 5 slots. used different appliances and rooms in the home and control them with
+- Step 2 : undo functionality

@@ -1,4 +1,4 @@
-package org.example.commandPattern.step1_basicRemoteController.roomsAndAppliances;
+package org.example.commandPattern.step2_undo_button.roomsAndAppliances;
 
 public abstract class Light {
     String description = "Light";
