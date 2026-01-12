@@ -1,0 +1,4 @@
+Designing an ATM machine 
+motivated from subh patel on Youtube
+
+![img.png](img.png)
