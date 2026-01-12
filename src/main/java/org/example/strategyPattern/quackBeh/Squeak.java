@@ -1,7 +1,0 @@
-package org.example.strategyPattern.quackBeh;
-
-public class Squeak implements QuackBehavior {
-	public void quack() {
-		System.out.println("Squeak");
-	}
-}
