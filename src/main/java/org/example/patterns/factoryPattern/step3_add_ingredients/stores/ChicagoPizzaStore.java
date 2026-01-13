@@ -2,7 +2,6 @@ package org.example.patterns.factoryPattern.step3_add_ingredients.stores;
 
 import org.example.patterns.factoryPattern.step3_add_ingredients.ingredients.factory.ChicagoPizzaIngredientFactory;
 import org.example.patterns.factoryPattern.step3_add_ingredients.ingredients.factory.PizzaIngredientFactory;
-import org.example.factoryPattern.step3_add_ingredients.pizzas.*;
 import org.example.patterns.factoryPattern.step3_add_ingredients.pizzas.*;
 
 public class ChicagoPizzaStore extends PizzaStore {

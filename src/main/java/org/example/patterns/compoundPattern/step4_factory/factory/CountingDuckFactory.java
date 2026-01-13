@@ -1,9 +1,7 @@
 package org.example.patterns.compoundPattern.step4_factory.factory;
 
-import org.example.compoundPattern.step4_factory.*;
 import org.example.patterns.compoundPattern.step4_factory.QuackCounter;
 import org.example.patterns.compoundPattern.step4_factory.adapter.GooseAdapter;
-import org.example.compoundPattern.step4_factory.animals.*;
 import org.example.patterns.compoundPattern.step4_factory.animals.*;
 import org.example.patterns.compoundPattern.step4_factory.interfaces.Quackable;
 

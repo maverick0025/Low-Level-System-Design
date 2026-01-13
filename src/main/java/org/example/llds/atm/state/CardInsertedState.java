@@ -16,7 +16,13 @@ public class CardInsertedState implements ATMState{
 
     @Override
     public void enterPin(String pin) {
-        System.out.println("Enter Pin");
+
+        if(atmMachine.getCurrentCard().getPin().equals(pin)){
+            System.out.println("pin correct. authenticated");
+            atmMachine.setState(new AuthenticatedState(atmMachine));
+        }else{
+            System.out.println("Invalid Pin");
+        }
     }
 
     @Override

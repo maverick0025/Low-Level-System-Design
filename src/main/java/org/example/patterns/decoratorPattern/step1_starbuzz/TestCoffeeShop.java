@@ -1,7 +1,5 @@
 package org.example.patterns.decoratorPattern.step1_starbuzz;
 
-import org.example.decoratorPattern.step1_starbuzz.beverages.*;
-import org.example.decoratorPattern.step1_starbuzz.condiments.*;
 import org.example.patterns.decoratorPattern.step1_starbuzz.beverages.DarkRoast;
 import org.example.patterns.decoratorPattern.step1_starbuzz.beverages.Espresso;
 import org.example.patterns.decoratorPattern.step1_starbuzz.beverages.HouseBlend;

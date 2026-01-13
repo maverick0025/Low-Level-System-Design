@@ -11,6 +11,7 @@ public class ATM {
     private String id;
     @Setter
     private ATMStatus atmStatus;
+    @Setter
     private double cashAvailable;
     @Setter
     private int twoThCount;

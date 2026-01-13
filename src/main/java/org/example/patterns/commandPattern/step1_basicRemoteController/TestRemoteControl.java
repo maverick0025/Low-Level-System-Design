@@ -1,6 +1,5 @@
 package org.example.patterns.commandPattern.step1_basicRemoteController;
 
-import org.example.commandPattern.step1_basicRemoteController.commands.*;
 import org.example.patterns.commandPattern.step1_basicRemoteController.commands.*;
 import org.example.patterns.commandPattern.step1_basicRemoteController.roomsAndAppliances.CeilingFan;
 import org.example.patterns.commandPattern.step1_basicRemoteController.roomsAndAppliances.GarageDoor;

@@ -2,7 +2,6 @@ package org.example.patterns.compoundPattern.step6_observer.factory;
 
 import org.example.patterns.compoundPattern.step6_observer.QuackCounter;
 import org.example.patterns.compoundPattern.step6_observer.adapter.GooseAdapter;
-import org.example.compoundPattern.step6_observer.animals.*;
 import org.example.patterns.compoundPattern.step6_observer.animals.*;
 import org.example.patterns.compoundPattern.step6_observer.interfaces.Quackable;
 

@@ -1,7 +1,6 @@
 package org.example.patterns.factoryPattern.step3_add_ingredients;
 
 import org.example.patterns.factoryPattern.step3_add_ingredients.pizzas.Pizza;
-import org.example.factoryPattern.step3_add_ingredients.stores.*;
 import org.example.patterns.factoryPattern.step3_add_ingredients.stores.ChicagoPizzaStore;
 import org.example.patterns.factoryPattern.step3_add_ingredients.stores.NYPizzaStore;
 import org.example.patterns.factoryPattern.step3_add_ingredients.stores.PizzaStore;

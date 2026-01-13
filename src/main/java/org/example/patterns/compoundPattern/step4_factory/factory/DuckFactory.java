@@ -1,6 +1,5 @@
 package org.example.patterns.compoundPattern.step4_factory.factory;
 
-import org.example.compoundPattern.step4_factory.animals.*;
 import org.example.patterns.compoundPattern.step4_factory.animals.DuckCall;
 import org.example.patterns.compoundPattern.step4_factory.animals.MallardDuck;
 import org.example.patterns.compoundPattern.step4_factory.animals.RedheadDuck;

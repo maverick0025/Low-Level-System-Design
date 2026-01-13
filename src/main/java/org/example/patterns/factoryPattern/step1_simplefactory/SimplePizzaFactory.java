@@ -1,6 +1,5 @@
 package org.example.patterns.factoryPattern.step1_simplefactory;
 
-import org.example.factoryPattern.step1_simplefactory.pizzas.*;
 import org.example.patterns.factoryPattern.step1_simplefactory.pizzas.*;
 
 public class SimplePizzaFactory {

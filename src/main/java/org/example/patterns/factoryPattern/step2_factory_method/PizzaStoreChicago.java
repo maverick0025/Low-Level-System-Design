@@ -1,6 +1,5 @@
 package org.example.patterns.factoryPattern.step2_factory_method;
 
-import org.example.factoryPattern.step2_factory_method.pizzas.ChicagoPizzas.*;
 import org.example.patterns.factoryPattern.step2_factory_method.pizzas.ChicagoPizzas.ChicagoStyleCheesePizza;
 import org.example.patterns.factoryPattern.step2_factory_method.pizzas.ChicagoPizzas.ChicagoStyleClamPizza;
 import org.example.patterns.factoryPattern.step2_factory_method.pizzas.ChicagoPizzas.ChicagoStylePepperoniPizza;

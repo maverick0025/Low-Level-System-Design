@@ -1,6 +1,5 @@
 package org.example.patterns.facadePattern;
 
-import org.example.facadePattern.homeTheatre.*;
 import org.example.patterns.facadePattern.homeTheatre.*;
 
 public class TestHomeTheatre {
