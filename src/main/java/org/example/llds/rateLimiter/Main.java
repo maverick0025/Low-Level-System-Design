@@ -23,14 +23,14 @@ public class Main {
 //            Thread.sleep(100); // simulate delay between requests
 //        }
 
-//        System.out.println("\n=== Premium User Requests ===");
-//        for (int i = 1; i <= 120; i++) {
-//            boolean allowed = rateLimiterService.allowRequest(premiumUser);
-//            System.out.println("Request " + i + " for Premium User: " + (allowed ? "ALLOWED" : "BLOCKED"));
-//            Thread.sleep(100);
-//        }
+        System.out.println("\n=== Premium User Requests ===");
+        for (int i = 1; i <= 120; i++) {
+            boolean allowed = rateLimiterService.allowRequest(premiumUser);
+            System.out.println("Request " + i + " for Premium User: " + (allowed ? "ALLOWED" : "BLOCKED"));
+            Thread.sleep(100);
+        }
 
-        checkConcurrency(rateLimiterService);
+//        checkConcurrency(rateLimiterService);
     }
 
     static void checkConcurrency(RateLimiterService rateLimiterService) throws InterruptedException {
